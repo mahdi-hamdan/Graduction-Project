@@ -1,0 +1,101 @@
+body
+{
+  font-family: 'Oxygen', Arial, Helvetica, sans-serif;
+}
+
+table.datatable {
+    width: 100% ;
+    line-height: 1.4rem;
+    border-spacing: 2px;
+    border-color: grey;
+    border-collapse: collapse;
+        float: left;
+    margin-bottom: 3vw;
+}
+
+
+
+table.datatable  thead  th {
+    background-color: #257525;
+    font-weight: normal;
+    text-transform: capitalize;
+    white-space: nowrap;
+    color: #fff;
+    padding-top: 7px;
+	text-align:center;
+    padding-bottom: 8px;
+
+}
+tr ,td {
+   padding-top: 7px;
+    padding-bottom: 8px;
+}
+
+td:last-child , tr th:last-child
+{
+  width: 35px !important;
+}
+
+table.datatable th {
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+table.datatable td {
+    background-color: #fff;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid #ccc;
+	font-size:14px;
+	
+}
+
+tr:nth-child(even) td {background: #eee ;color:#666;}
+tr:nth-child(odd) td {background: #fff ;color:#666;}
+table tr:hover td
+{
+  background-color: #ffd;
+}
+
+table tr td a {
+    width: 155px  !important;
+    height: 30px !important;
+    background-color: #5C5555;
+    font-weight: normal;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 4px;
+    padding: 6px;
+    float: left;
+    margin: 5px;
+}
+table tr td a:hover
+{
+  background: #000;
+  color:#fff;
+}
+
+
+input , select   , textarea
+{
+  border: 1px solid #999;
+  border-radius: 3px;
+  padding: 5px;
+  margin: 5px;
+  background:#5C5555;
+  color:darkgray;
+}
+
+#btn
+{
+  background: #333;
+  color:#fff;
+  text-transform: uppercase;
+}
+#btn:hover
+{
+  background: #999;
+}
+
+l
